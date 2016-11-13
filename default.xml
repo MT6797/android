@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    
+  <remote name="aosp" fetch="https://android.googlesource.com" />
+  <remote name="github" fetch="https://github.com/" />
+  
+  <default revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"
+  remote="github"
+  sync-j="4" />
+
+  <project name="MT6797/abi" path="abi" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/art" path="art" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/bionic" path="bionic" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/bootable" path="bootable" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/build" path="build" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+  </project>
+  <project name="MT6797/cts" path="cts" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/custom" path="custom" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/dalvik" path="dalvik" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/developers" path="developers" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/development" path="development" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/device" path="device" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/docs" path="docs" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/external" path="external" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/frameworks" path="frameworks" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/hardware" path="hardware" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/kernel-3.18" path="kernel-3.18" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/libcore" path="libcore" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/libnativehelper" path="libnativehelper" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/ndk" path="ndk" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/packages" path="packages" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/pdk" path="pdk" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/platform_testing" path="platform_testing" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/prebuilts" path="prebuilts" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/sdk" path="sdk" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/system" path="system" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/tools" path="tools" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/trusty" path="trusty" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/vendor" path="vendor" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+
+</manifest>

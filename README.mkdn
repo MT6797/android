@@ -1,0 +1,21 @@
+Android AOSP by Vernee/Mediatek
+-------------------------------
+
+Source Code Provided by Vernee (http://bbs.vernee.cc/forum.php?mod=viewthread&tid=1455)
+
+To get started with Android AOSP Build, you'll need to get familiar with  Git and Repo (http://source.android.com/download/using-repo).
+
+To initialize your local repository, use a command like this:
+
+    repo init -u https://github.com/MT6797/android.git -b ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M
+
+To sync up:
+
+    repo sync
+
+Then to build:
+
+	. build/envsetup.sh
+	lunch 
+	(select your device)
+	make -j4 otapackage
