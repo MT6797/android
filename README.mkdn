@@ -19,3 +19,4 @@ Then to build:
 	lunch 
 	(select your device)
 	make -j4
+	make -j4 otapackage
