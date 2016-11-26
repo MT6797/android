@@ -3,6 +3,7 @@
     
   <remote name="aosp" fetch="https://android.googlesource.com" />
   <remote name="github" fetch="https://github.com/" />
+  <remote name="gitlab" fetch="https://gitlab.com/" />
   
   <default revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"
   remote="github"
@@ -32,11 +33,11 @@
   <project name="MT6797/packages" path="packages" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
   <project name="MT6797/pdk" path="pdk" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
   <project name="MT6797/platform_testing" path="platform_testing" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
-  <project name="MT6797/prebuilts" path="prebuilts" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/prebuilts" path="prebuilts" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M" remote="gitlab"/>
   <project name="MT6797/sdk" path="sdk" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
   <project name="MT6797/system" path="system" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
   <project name="MT6797/tools" path="tools" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
   <project name="MT6797/trusty" path="trusty" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
-  <project name="MT6797/vendor" path="vendor" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M"/>
+  <project name="MT6797/vendor" path="vendor" revision="ALPS-MP-M0.MP9-V1.78.1_NB6797_6C_M" remote="gitlab"/>
 
 </manifest>
